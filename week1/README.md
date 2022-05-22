@@ -25,7 +25,7 @@
 # Installing a virtual machine
 
 1. Install a virtual box
-2. Install an ubuntu server [!manually](https://www.ubuntu.com/download/server)
+2. Install an ubuntu server [manually](https://www.ubuntu.com/download/server)
     * This way so that our skills transfer to any platform (AWS, Azure, etc)
     * Server version emulates a cloud on our machine
 3. The process of intalling a the server into our brand new virtual machine, is like 
@@ -41,11 +41,15 @@ Now we have to actually go through the boot process and do the server configurat
 
 # Useful links during lecture
 
-https://commonmark.org/ well structured guide on markdown
-https://tldrlegal.com Software licenses in plain English
-https://www.ubuntu.com/download/server
+- https://commonmark.org/ well structured guide on markdown
+- https://tldrlegal.com Software licenses in plain English
+- https://www.ubuntu.com/download/server
 
 # Great comments from the chat
 
     for the interested: watch the 8-bit cpu breadboard videos by ben eater on youtube - you'll learn a lot
     professor messer on youtube
+
+# Commands
+
+`shutdown -h now`, `init 0`, `poweroff`
