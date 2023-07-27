@@ -104,3 +104,42 @@ This week we do "destructive" file system stuff related and take a lot of time t
 
     !!! note
         This creates new files with new creation dates/times and ownership if copying from another user. Use other `cp` argument options when preserving them is important.
+1. Globbing examples
+    1. Match all files with a .txt extension in the current directory:
+   ```
+   ls *.txt
+   ```
+
+   2. Match all files with a specific prefix in the current directory:
+   ```
+   ls prefix*
+   ```
+
+   3. Match all files with a specific suffix in the current directory:
+   ```
+   ls *suffix
+   ```
+
+   4. Match all files with a specific pattern in the current directory:
+   ```
+   ls *pattern*
+   ```
+
+   5. Match all files with a specific range of characters in the current directory:
+   ```
+   ls [a-j]*.txt
+   ```
+
+   6. Match all files with a specific character or digit in the current directory:
+   ```
+   ls [abcd]*.txt
+   ```
+
+   7. Match any single character in a specific position in the filename:
+   ```
+   ls file?.txt
+   ```
+
+   8. Match all files in subdirectories recursively:
+   ```
+   ls -R *.txt
